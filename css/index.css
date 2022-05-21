@@ -71,28 +71,196 @@ line-height: 24px;
 text-align: left;
 }
 
-.sub_1 .main_heading{
+.sub_1 .main_Fre{
     font-family: 'Fredericka the Great';
 font-style: normal;
 font-weight: 400;
 font-size: 100px;
 line-height: 123px;
 /* identical to box height */
-
-
 color: #F3F4F4;
 
 opacity: 0.4;
 }
 
+.sub_1 .main_aud{
+    font-family: 'Audiowide';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 61px;
+
+color: #E10D45;
+    margin-top:-60px;
+    /* margin-right:50px; */
+
+}
+
+.sub_1 .main_img{
+    border:2px solid white;
+    border-radius: 10px;
+    padding-bottom:20px;
+    padding-right:20px;
+}
+
+
 /* about us */
 
+/* event */
+
+.event{
+    background-color: #E5E5E5;;
+}
+
+.event .event_aut{
+
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: right;
+    color: #E10D45;
+    margin-top:-60px;
+    
+}
+
+.event .event_Fre{
+
+font-family: 'Fredericka the Great';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 123px;
+/* identical to box height */
+text-align: right;
+color: #1E1E1E;
+opacity: 0.4;
+}
+
+.event .date{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+
+color: #000000;
+
+opacity: 0.8;
+}
+
+.event .txt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+
+color: #1E1E1E;
+}
+
+
+.Learn_btn_filled{
+    position: relative;  
+}
+
+.Learn_btn_filled .centered{
+    top: 50%;
+    position: absolute;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color:#F3F4F4;
+
+}
+
+.Learn_btn_empty{
+  position: relative;
+
+}
+
+.Learn_btn_empty .centered{
+    
+position: absolute;
+  top: 50%;
+  left: 21%;
+  transform: translate(-50%, -50%);
+}
+
+.event .horizontal-scrollable{
+    
+}
+
+.event .horizontal-scrollable .scroll_sub{
+    display: inline-block;
+}
+
+
+/* event */
+
+
+/* partner */
+
+.partner{
+    background-color: #E5E5E5;;
+}
+
+.partner .partner_aut{
+    
+    
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    text-align: left;
+    color: #E10D45;
+    margin-top: -60px;
+}
+
+.partner .partner_Fre{
+    
+    
+    font-family: 'Fredericka the Great';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 123px;
+    /* identical to box height */
+    color: #1E1E1E;
+    opacity: 0.4;
+}
+
+.partner_content .partner_txt{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+
+color: #1E1E1E;
+}
+
+.partner .partner_img {
+    position: absolute;
+    z-index:2;
+}
+
+.partner .partner_img_sha{
+    position: relative;
+    bottom: -13px;
+    left: -20px;
+    z-index: 1;
+}
 
 
 
+/* partner */
 
 
-/* about us */
+
 /* // X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
