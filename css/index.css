@@ -60,6 +60,9 @@ text-align: center;
 
 /* img */
 
+.sub_1{
+    background-color: #1E1E1E;
+}
 
 .main_content .main_txt{
     color:white;
@@ -97,10 +100,15 @@ color: #E10D45;
 }
 
 .sub_1 .main_img{
-    border:2px solid white;
-    border-radius: 10px;
-    padding-bottom:20px;
-    padding-right:20px;
+    position: absolute;
+    z-index:2;
+}
+
+.sub_1 .main_img_sha{
+    position: relative;
+    bottom: -13px;
+    left: 25px;
+    z-index: 1;
 }
 
 
@@ -258,6 +266,74 @@ color: #1E1E1E;
 
 
 /* partner */
+
+
+/* form */
+
+.form{
+    background-color: #1E1E1E;
+
+}
+
+.form .form_aut{
+    font-family: 'Audiowide';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 61px;
+
+color: #E10D45;
+margin-top: -50px;
+}
+
+.form .form_Fre{
+    font-family: 'Fredericka the Great';
+font-style: normal;
+font-weight: 400;
+font-size: 100px;
+line-height: 123px;
+/* identical to box height */
+
+max-width:63%;
+color: #F3F4F4;
+
+opacity: 0.4;
+}
+
+.form .form_txt{
+max-width:63%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #F3F4F4;
+}
+
+.form .form_dt{
+    max-width: 60%;
+    
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+/* identical to box height */
+
+letter-spacing: 0.14em;
+
+color: #FFFFFF;
+}
+
+.form .form_radio{
+
+}
+
+
+
+/* form */
 
 
 
