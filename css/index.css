@@ -105,7 +105,33 @@ text-align: center;
 // No media query for `xs` since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
 
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+    .carousel-caption{
+        padding-bottom: 150px;
+    }
+    
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) { 
+    .carousel-caption{
+        padding-bottom: 240px;}
+        
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }
 
 /* img */
 
@@ -227,7 +253,7 @@ color: #1E1E1E;
     position: relative;  
 }
 
-.Learn_btn_filled .centered{
+ .Learn_btn_filled .centered{
     top: 50%;
     position: absolute;
   left: 10%;
@@ -242,10 +268,10 @@ color: #1E1E1E;
 }
 
 .Learn_btn_empty .centered{
-    
+    top: 50%;
+    position: absolute;
+  left: 19%;
 position: absolute;
-  top: 50%;
-  left: 21%;
   transform: translate(-50%, -50%);
 }
 
@@ -268,9 +294,35 @@ position: absolute;
     z-index: 1;
 }
 
-.event .horizontal-scrollable .scroll_sub{
-    display: inline-block;
+.scrolling-wrapper{
+	overflow-x: auto;
 }
+
+.scrolling-wrapper::-webkit-scrollbar{
+    display:none;
+}
+
+.image-block{
+	width: 300px;
+    background: transparent;
+   border-radius:5px;
+   --bs-border-opacity: 0.3;
+   padding:15px;
+   
+}
+
+.sub-block{
+    width: 270px;
+}
+
+.image_size{
+    height: 200px;
+    width: 270px;
+
+}
+
+
+
 
 
 /* event */
